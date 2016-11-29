@@ -157,6 +157,7 @@ header {
 
 .about p {
     margin-right: 235px;
+    text-align: justify;
 }
 
 .about button {
@@ -525,13 +526,13 @@ footer .fa:hover {
         margin-right: 6%
     }
     .about {
-        height: 620px;
+        height: 658px;
     }
     .about img {
         float: left;
         margin-left: 215px;
         margin-right: 80px;
-        margin-top: 36px;
+        margin-top: 75px;
     }
     .about h3 {
         margin-top: 0px;
@@ -539,6 +540,7 @@ footer .fa:hover {
     }
     .about p {
         margin-right: 100px;
+        text-align: justify;
     }
     .about button {
         margin-top: 50px;
