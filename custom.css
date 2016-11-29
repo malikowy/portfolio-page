@@ -150,12 +150,13 @@ header {
 
 .about h3 {
     margin-top: 0px;
+    margin-right: 60px;
     margin-bottom: 40px;
     padding-top: 77px;
 }
 
 .about p {
-    margin-right: 215px;
+    margin-right: 235px;
 }
 
 .about button {
@@ -524,16 +525,16 @@ footer .fa:hover {
         margin-right: 6%
     }
     .about {
-        height: 530px;
+        height: 620px;
     }
     .about img {
         float: left;
         margin-left: 215px;
         margin-right: 80px;
-        margin-top: -53px;
+        margin-top: 36px;
     }
     .about h3 {
-        margin-top: 172px;
+        margin-top: 0px;
         margin-bottom: 40px;
     }
     .about p {
