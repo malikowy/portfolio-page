@@ -78,6 +78,8 @@ li {
     padding: 14px 15px 5px 15px;
     display: inline-block;
     font-weight: bold;
+    -webkit-transition: background-color 0.2s ease;
+    -moz-transition: background-color 0.2s ease;
     transition: background-color 0.2s ease;
     margin: 0px 0px 0px 0px;
 }
@@ -164,6 +166,10 @@ header {
     color: rgba(255, 255, 255, 1);
     font-weight: bold;
     font-size: 0.8em;
+}
+
+button:hover {
+    background-color: rgba(255, 43, 74, .7);
 }
 
 .experience {
@@ -276,6 +282,8 @@ a:hover.tooltips span {
 
 .gallery img {
     display: block;
+    -moz-transition: all .6s ease-in-out;
+    -webkit-transition: all .6s ease-in-out;
     transition: all .6s ease-in-out;
     width: 20em;
 }
@@ -285,6 +293,8 @@ a:hover.tooltips span {
     height: 100%;
     position: absolute;
     text-align: center;
+    -moz-transition: all .6s ease-in-out;
+    -webkit-transition: all .6s ease-in-out;
     transition: all .6s ease-in-out;
     width: 100%;
 }
@@ -302,7 +312,7 @@ a:hover.tooltips span {
 }
 
 .gallery.rotate:after {
-    content: "\f0c1";
+    content: "\f09b";
     color: #fff;
     font-family: FontAwesome;
     font-size: 2em;
@@ -416,6 +426,10 @@ input[type=submit] {
     font-size: 0.8em;
     width: 200px;
     float: right;
+}
+
+input[type=submit]:hover {
+    background-color: rgba(255, 43, 74, .7);
 }
 
 input:focus, textarea:focus {
