@@ -65,7 +65,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(100, 181, 172, .6);
+    background-color: rgba(100, 181, 172, .8);
     position: fixed;
     top: 0;
     width: 100%;
@@ -75,7 +75,6 @@ ul {
 }
 
 li {
-    padding: 14px 15px 5px 15px;
     display: inline-block;
     font-weight: bold;
     -webkit-transition: background-color 0.2s ease;
@@ -90,6 +89,7 @@ li a {
     text-align: center;
     text-decoration: none;
     margin: 0px 0px 0px 0px;
+    padding: 14px 15px 5px 15px;
 }
 
 li:hover {
