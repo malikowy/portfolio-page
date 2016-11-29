@@ -346,12 +346,25 @@ a:hover.tooltips span {
 
 /* GALLERY SETTINGS END*/
 
+#map {
+    height: 979px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    position: absolute;
+    pointer-events: none;
+}
+
 .contact {
     height: 979px;
     background-image: url(./src/images/header.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    z-index: 0;
+    position: relative;
 }
 
 .contact .contact-form {
@@ -362,6 +375,7 @@ a:hover.tooltips span {
     position: relative;
     margin-top: 125px;
     margin-left: 19%;
+    z-index: 2;
 }
 
 .contact .contact-list {
@@ -371,7 +385,8 @@ a:hover.tooltips span {
     margin-bottom: 20px;
     position: relative;
     margin-top: 125px;
-    margin-right: 19%
+    margin-right: 19%;
+    z-index: 2;
 }
 
 .contact .contact-data {

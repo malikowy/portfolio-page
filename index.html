@@ -87,6 +87,7 @@
                 <div class="contact-data">4</div>
                 <div class="contact-data">5</div>
             </div>
+            <div class="contact-map" id="map"></div>
         </section>
         <footer>
             <a href="https://www.linkedin.com/in/gabrielignatiuk"><i class="fa faborder fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
@@ -97,6 +98,24 @@
             <a href="http://twitter.com/malikowy"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
             <p>Copyright &copy; Gabriel Ignatiuk. All rights reserved.</p>
         </footer>
+        <script>
+            function initMap() {
+                var uluru = {
+                    lat: 52.333836,
+                    lng: 20.887125
+                };
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 9,
+                    center: uluru
+                });
+                var marker = new google.maps.Marker({
+                    position: uluru,
+                    map: map
+                });
+            }
+        </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBR7Nf5SnRIpKL8Byci1G6n4HI9cD3cIbk&callback=initMap">
+        </script>
     </body>
 
 </html>
