@@ -109,6 +109,15 @@ header {
     text-align: center;
 }
 
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 1022px;
+}
+
 .title {
     border-top: 3px;
     border-bottom: 3px;
@@ -158,6 +167,10 @@ header {
 .about p {
     margin-right: 235px;
     text-align: justify;
+}
+
+.about .rwd-line {
+    display: block;
 }
 
 .about button {
@@ -513,6 +526,11 @@ footer .fa:hover {
     header {
         height: 660px;
     }
+    #particles-js {
+        position: absolute;
+        width: 100%;
+        height: 660px;
+    }
     .title {
         top: 235px;
     }
@@ -544,6 +562,9 @@ footer .fa:hover {
     }
     .about button {
         margin-top: 50px;
+    }
+    .about .rwd-line {
+        display: block;
     }
     .experience {
         height: 660px;

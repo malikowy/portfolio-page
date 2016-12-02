@@ -7,6 +7,7 @@
         <meta name="author" content="Gabriel Ignatiuk">
         <meta name="description" content="Portfolio Gabriela Ignatiuka, strona zawiera informację na temat moich umiętności, osiągnięć oraz wykonanych zleceń">
         <meta name="keywords" content="Gabriel, Ignatiuk, frontend, front, end, develeoper, development, HTML5, CSS3, JavaScript, Angular, React, SASS, Atom, Mac">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link href="./custom.css" rel="stylesheet">
@@ -15,6 +16,7 @@
 
     <body>
         <header id="top">
+          <div id="particles-js"></div>
             <nav>
                 <ul>
                     <li><a href="#top">Do góry</a></li>
@@ -26,12 +28,13 @@
             </nav>
             <h1 class="title">Gabriel Ignatiuk</h1>
             <h2 class="subtitle"><span class="space">#Front End Developer</span><span class="space">#Czysty kod</span><span class="space">#Muzyka</span></h2>
+
         </header>
         <section class="about" id="about">
             <img src="./src/images/award.png">
             <h3>Cześć, nazywam się Gabriel Ignatiuk i jestem Front End Developerem z Warszawy.</h3>
-            <p>Przygodę z tworzeniem stron internetowych rozpocząłem pod koniec piątej klasy podstawówki. Trwała ona około trzy lata po czym, jak każdy nastolatek, moje zainteresowania uległy zmianie. Nabyte umiejętności przydały mi się podczas tworzenia stron internetowych na zajęcia w szkole średniej, czy w tworzeniu strony firmowej dla przyjaciela opartej o framework Bootstrap 3.</p>
-            <p>Po dwóch latach przerwy wznowiłem działalność w temacie tworzenia stron internetowych. Początkowo przypominałem sobie nabyte wiadomości na temat HTML i CSS. Dodatkowo zagłębiłem się w HTML5 oraz CSS3. Kolejnym językiem, którego chciałbym się nauczyć jest JavaScript. Ponadto chciałbym korzystać z preprocesora SASS, a także SCSS.</p>
+            <p>Przygodę z tworzeniem stron internetowych rozpocząłem pod koniec piątej klasy podstawówki. Trwała ona około trzy lata po czym, jak każdy nastolatek, moje zainteresowania uległy zmianie. <span class="rwd-line">Nabyte umiejętności przydały mi się podczas tworzenia stron internetowych na zajęcia w szkole średniej, czy w tworzeniu strony firmowej dla przyjaciela opartej o framework Bootstrap 3.</span></p>
+            <p>Po dwóch latach przerwy wznowiłem działalność w temacie tworzenia stron internetowych. Początkowo przypominałem sobie nabyte wiadomości na temat HTML i CSS. Dodatkowo zagłębiłem się w HTML5 oraz CSS3. <span class="rwd-line">Kolejnym językiem, którego chciałbym się nauczyć jest JavaScript. Ponadto chciałbym korzystać z preprocesora SASS, a także SCSS.</span></p>
             <a href="#contact"><button>Zatrudnij mnie!</button></a>
         </section>
         <section id="experience" class="experience">
@@ -99,6 +102,7 @@
             <a href="http://twitter.com/malikowy"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
             <p>Copyright &copy; Gabriel Ignatiuk. All rights reserved.</p>
         </footer>
+        <!-- GOOGLE MAP SCRIPT -->
         <script>
             function initMap() {
                 var uluru = {
@@ -117,6 +121,9 @@
         </script>
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBR7Nf5SnRIpKL8Byci1G6n4HI9cD3cIbk&callback=initMap">
         </script>
+        <!-- PARTICLES SCRIPT -->
+        <script src="./src/js/particles.min.js"></script>
+        <script src="./src/js/app.js"></script>
     </body>
 
 </html>
