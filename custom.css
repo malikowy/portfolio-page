@@ -277,7 +277,7 @@ a:hover.tooltips span {
 
 .works h2 {
     font-size: 2.5em;
-    padding-top: 55px;
+    padding-top: 45px;
     margin-top: 0px;
     margin-bottom: 30px;
 }
@@ -544,13 +544,13 @@ footer .fa:hover {
         margin-right: 6%
     }
     .about {
-        height: 658px;
+        height: 660px;
     }
     .about img {
         float: left;
         margin-left: 215px;
         margin-right: 80px;
-        margin-top: 75px;
+        margin-top: 76px;
     }
     .about h3 {
         margin-top: 0px;
@@ -578,5 +578,49 @@ footer .fa:hover {
     }
     .experience img {
         margin: 0 10px 0 10px;
+    }
+    /**/
+    #map {
+        height: 660px;
+    }
+    .contact {
+        height: 660px;
+    }
+    .contact .contact-form {
+        height: 571px;
+        margin-top: 60px;
+        margin-left: 6%;
+    }
+    .contact .contact-list {
+        width: 578px;
+        height: 571px;
+        margin-top: 60px;
+        margin-right: 6%;
+    }
+    .contact .contact-data {
+        margin-bottom: 17px;
+        width: 578px;
+        height: 179px;
+    }
+    .contact-form h2 {
+        margin-left: 40px;
+        margin-bottom: 30px;
+    }
+    textarea {
+        width: 494px;
+        height: 125px;
+        margin-left: 40px;
+        border: 0;
+        padding-left: 0px;
+        padding-right: 0px;
+        background: transparent;
+        color: rgba(255, 255, 255, 1);
+        border: 1px solid rgba(222, 222, 222, 1);
+    }
+    footer {
+        height: 130px;
+        background-color: rgba(34, 34, 34, 1);
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
     }
 }

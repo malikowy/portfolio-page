@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pl">
-
     <head>
         <meta charset="utf-8">
         <title>Gabriel Ignatiuk - Strona Portfolio</title>
@@ -12,8 +11,8 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link href="./custom.css" rel="stylesheet">
         <script src="https://use.fontawesome.com/dae1dff95d.js"></script>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     </head>
-
     <body>
         <header id="top">
           <div id="particles-js"></div>
@@ -28,7 +27,6 @@
             </nav>
             <h1 class="title">Gabriel Ignatiuk</h1>
             <h2 class="subtitle"><span class="space">#Front End Developer</span><span class="space">#Czysty kod</span><span class="space">#Muzyka</span></h2>
-
         </header>
         <section class="about" id="about">
             <img src="./src/images/award.png">
@@ -102,7 +100,7 @@
             <a href="http://twitter.com/malikowy"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
             <p>Copyright &copy; Gabriel Ignatiuk. All rights reserved.</p>
         </footer>
-        <!-- GOOGLE MAP SCRIPT -->
+        <!-- GOOGLE MAPS -->
         <script>
             function initMap() {
                 var uluru = {
@@ -120,6 +118,21 @@
             }
         </script>
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBR7Nf5SnRIpKL8Byci1G6n4HI9cD3cIbk&callback=initMap">
+        </script>
+        <!-- SMOOTH SCROLL -->
+        <script>
+        $('a[href*="#"]:not([href="#"])').click(function() {
+          if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+              $('html, body').animate({
+                scrollTop: target.offset().top
+              }, 1000);
+              return false;
+            }
+          }
+        });
         </script>
         <!-- PARTICLES SCRIPT -->
         <script src="./src/js/particles.min.js"></script>
