@@ -581,10 +581,7 @@ footer .fa:hover {
     }
     .works {
         height: 660px;
-        background-color: rgba(100, 203, 192, 1);
-        text-align: center;
     }
-    /**/
     #map {
         height: 660px;
     }
