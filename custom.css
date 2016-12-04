@@ -602,25 +602,13 @@ footer .fa:hover {
         width: 578px;
         height: 179px;
     }
-    .contact-form h2 {
-        margin-left: 40px;
-        margin-bottom: 30px;
-    }
     textarea {
-        width: 494px;
         height: 125px;
-        margin-left: 40px;
-        border: 0;
-        padding-left: 0px;
-        padding-right: 0px;
-        background: transparent;
-        color: rgba(255, 255, 255, 1);
-        border: 1px solid rgba(222, 222, 222, 1);
     }
     footer {
         height: 130px;
-        background-color: rgba(34, 34, 34, 1);
-        text-align: center;
-        color: rgba(255, 255, 255, 1);
     }
 }
+
+
+/* END of SETTINGS FOR HD DISPLAYS */
