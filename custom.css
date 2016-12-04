@@ -181,6 +181,8 @@ header {
     color: rgba(255, 255, 255, 1);
     font-weight: bold;
     font-size: 0.8em;
+    width: 235px;
+    height: 45px;
 }
 
 button:hover {
@@ -406,12 +408,13 @@ a:hover.tooltips span {
 
 .contact .contact-data {
     background-color: rgba(95, 100, 125, 0.9);
-    margin-bottom: 17px;
+    margin-bottom: 20px;
     width: 578px;
-    height: 232px;
+    height: 355px;
 }
 
 .contact-form h2 {
+    margin-top: 20px;
     margin-left: 40px;
     color: rgba(255, 255, 255, 1);
     margin-bottom: 30px;
@@ -446,15 +449,15 @@ textarea {
 }
 
 input[type=submit] {
-    margin-top: 30px;
+    margin-top: 25px;
     margin-right: 43px;
-    padding: 15px 70px 15px 70px;
     background-color: rgba(255, 43, 74, 1);
     border: 0;
     color: rgba(255, 255, 255, 1);
     font-weight: bold;
     font-size: 0.8em;
-    width: 200px;
+    width: 235px;
+    height: 45px;
     float: right;
 }
 
@@ -486,6 +489,24 @@ input:focus, textarea:focus {
 :-ms-input-placeholder {
     color: rgba(255, 255, 255, 1);
     text-indent: 15px;
+}
+
+.contact-data {
+    color: rgba(255, 255, 255, 1);
+}
+
+.contact-data h2 {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    padding-top: 20px;
+}
+
+.contact-data p {
+    font-style: normal;
+    margin-left: 40px;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 
@@ -614,3 +635,5 @@ footer .fa:hover {
 
 
 /* END of SETTINGS FOR HD DISPLAYS */
+
+YS */

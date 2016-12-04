@@ -33,7 +33,7 @@
             <h3>Cześć, nazywam się Gabriel Ignatiuk i jestem Front End Developerem z Warszawy.</h3>
             <p>Przygodę z tworzeniem stron internetowych rozpocząłem pod koniec piątej klasy podstawówki. Trwała ona około trzy lata po czym, jak każdy nastolatek, moje zainteresowania uległy zmianie. <span class="rwd-line">Nabyte umiejętności przydały mi się podczas tworzenia stron internetowych na zajęcia w szkole średniej, czy w tworzeniu strony firmowej dla przyjaciela opartej o framework Bootstrap 3.</span></p>
             <p>Po dwóch latach przerwy wznowiłem działalność w temacie tworzenia stron internetowych. Początkowo przypominałem sobie nabyte wiadomości na temat HTML i CSS. Dodatkowo zagłębiłem się w HTML5 oraz CSS3. <span class="rwd-line">Kolejnym językiem, którego chciałbym się nauczyć jest JavaScript. Ponadto chciałbym korzystać z preprocesora SASS, a także SCSS.</span></p>
-            <a href="#contact"><button>Zatrudnij mnie!</button></a>
+            <a href="#contact"><button>Napisz do mnie</button></a>
         </section>
         <section id="experience" class="experience">
             <h2>Umiejętności</h2>
@@ -65,8 +65,8 @@
             <div class="works-container">
                 <h2>Projekty wykonane</h2>
                 <!-- GALLERY IMAGE DIMENSIONS 700X420 -->
-                <a href="https://github.com/malikowy/MRR" title="Strona dla firmy MRR" class="gallery rotate"><img src="./src/images/projects/mrr.png" alt="MRR page view" /></a>
-                <a href="https://github.com/malikowy/portfolio-page" title="Moja pierwsza strona portfolio" class="gallery rotate"><img src="./src/images/projects/portfolio.png" alt="My first portfolio page" /></a>
+                <a href="https://github.com/malikowy/MRR" target="_blank" title="Strona dla firmy MRR" class="gallery rotate"><img src="./src/images/projects/mrr.png" alt="MRR page view" /></a>
+                <a href="https://github.com/malikowy/portfolio-page" target="_blank" title="Moja pierwsza strona portfolio" class="gallery rotate"><img src="./src/images/projects/portfolio.png" alt="My first portfolio page" /></a>
                 <a href="#" title="Lorem ipsum" class="gallery rotate"><img src="./src/images/7.jpg" alt="" /></a>
                 <a href="#" title="Lorem ipsum" class="gallery rotate"><img src="./src/images/5.jpg" alt="" /></a>
                 <a href="#" title="Lorem ipsum" class="gallery rotate"><img src="./src/images/6.jpg" alt="" /></a>
@@ -74,20 +74,33 @@
             </div>
         </section>
         <section class="contact" id="contact">
+            <!-- LEFT FORM -->
             <div class="contact-form">
-                <h2>LEAVE A MESSAGE</h2>
+                <h2>ZOSTAW WIADOMOŚĆ</h2>
                 <form>
-                    <input name="name" placeholder="Name*">
+                    <input name="name" placeholder="Imię*">
                     <input name="email" type="email" placeholder="Email*">
-                    <input name="subject" type="subject" placeholder="Subject*">
-                    <textarea name="message" placeholder="Message*"></textarea>
-                    <input id="submit" name="submit" type="submit" value="Hire Me">
+                    <input name="subject" type="subject" placeholder="Temat*">
+                    <textarea name="message" placeholder="Treść*"></textarea>
+                    <input id="submit" name="submit" type="submit" value="Napisz do mnie">
                 </form>
             </div>
+            <!-- RIGHT FORM -->
             <div class="contact-list">
-                <div class="contact-data">3</div>
-                <div class="contact-data">4</div>
-                <div class="contact-data">5</div>
+                <div class="contact-data">
+                  <h2>DANE KONTAKTOWE</h2>
+                  <address class="vcard">
+                    <p>Gabriel Ignatiuk</p>
+                    <p>Wiosenna 27b</p>
+                    <p>05-092 Łomianki</p>
+                    <p>mazowsze, Polska</p>
+                    <p>Telefon: <span class="tel">600144708</span></p>
+                    <p>Email: <a class="email" href="mailto:gabriel.ignatiuk@gmail.com">gabriel.ignatiuk@gmail.com</a></p>
+                  </address>
+                </div>
+                <div class="contact-data">
+                  <h2>SERWISY SPOŁECZNOŚCIOWE</h2>
+                </div>
             </div>
             <div class="contact-map" id="map"></div>
         </section>
