@@ -579,6 +579,11 @@ footer .fa:hover {
     .experience img {
         margin: 0 10px 0 10px;
     }
+    .works {
+        height: 660px;
+        background-color: rgba(100, 203, 192, 1);
+        text-align: center;
+    }
     /**/
     #map {
         height: 660px;
